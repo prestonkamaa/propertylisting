@@ -5,15 +5,10 @@ import PrelineScriptWrapper from './components/PrelineScriptWrapper';
 
 
 const figTree = Figtree({
-  variable: "--font-figtree",
-  weight: ["400", "500", "600", "700", "800", "900"], 
   subsets: ["latin"],
+  variable: "--font-figtree",
+  weight: ["400", "500", "600", "700", "800", "900"],  
 });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Property Lising Next App",
