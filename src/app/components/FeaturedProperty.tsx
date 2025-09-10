@@ -6,7 +6,7 @@ import IconButton from "./Buttons/IconButton"
 
 export default function FeaturedProperty() {
   return (
-    <div className=" lg:px-16 px-4 text-secondary">
+    <div className=" lg:px-16 px-4 text-secondary bg-white">
         <div className="flex lg:flex-row flex-col lg:gap-20 gap-4 items-center">
             <div className="lg:w-3/5 lg:text-5xl text-4xl lg:leading-13" >
                 <p className=" lg:w-[640px] "><span className=" font-medium">Your primary home</span> might begin to feel left out.</p>

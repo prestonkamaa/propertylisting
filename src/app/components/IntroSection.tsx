@@ -21,7 +21,7 @@ const counterInfo =[
 
 export default function IntroSection() {
   return (
-    <div className=" lg:py-20 lg:px-16 text-secondary  px-4 py-4  ">
+    <div className=" lg:py-20 lg:px-16 text-secondary  px-4 py-4 bg-white ">
         <div className="flex lg:flex-row flex-col lg:gap-20 gap-4">
             <div className=" lg:w-2/5">
                 <h1 className=" font-medium text-3xl mb-5 ">Transform Properties with Tailored Investment Expertise</h1>

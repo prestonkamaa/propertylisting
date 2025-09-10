@@ -25,7 +25,7 @@ const blogItems = [
 
 export default function Blog() {
   return (
-    <div className=" lg:p-16 p-4">
+    <div className=" lg:p-16 p-4 bg-white">
       <div className=" flex lg:flex-row flex-col lg:mb-10 mb-4 justify-between ">
         <h1 className=" lg:text-5xl text-4xl lg:leading-13 ">
             Our Latest <span className=" font-medium">News & Blogs</span>

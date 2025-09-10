@@ -4,7 +4,7 @@ import clientsImg from "../../../public/img/clients.jpg";
 
 export default function FeedBack() {
   return (
-    <div className=" lg:p-16 p-4 text-secondary">
+    <div className=" lg:p-16 p-4 text-secondary bg-white">
       <div className=" flex lg:mb-10 mb-4 justify-between items-center ">
         <h1 className=" lg:text-5xl text-4xl lg:leading-13 ">
             Our Client <span className=" font-medium">Feedback</span>

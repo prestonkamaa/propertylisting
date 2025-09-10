@@ -36,7 +36,7 @@ const housingList = [
 
 export default function ExploreApartments() {
   return (
-    <div className=" lg:p-16 p-4 text-secondary">
+    <div className=" lg:p-16 p-4 text-secondary bg-white">
 
         <div className="flex lg:flex-row flex-col">
             <h1 className="lg:w-3/5 lg:text-5xl text-4xl lg:leading-13" >
