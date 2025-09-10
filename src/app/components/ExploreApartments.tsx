@@ -21,11 +21,11 @@ const housingList = [
         imgAltText: "Image",
     },
     { 
-        imgSource: "https://images.pexels.com/photos/17675658/pexels-photo-17675658.jpeg",
+        imgSource: "https://images.pexels.com/photos/8082322/pexels-photo-8082322.jpeg",
         imgAltText: "Image",
     },
     { 
-        imgSource: "https://images.pexels.com/photos/1643388/pexels-photo-1643388.jpeg",
+        imgSource: "https://images.pexels.com/photos/7061663/pexels-photo-7061663.jpeg",
         imgAltText: "Image",
     }, 
 ] 
@@ -98,7 +98,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-2" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-2">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         housingList.map((item, index) => (
                             <ExploreApartmentsCard 
@@ -111,7 +111,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-3" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-3">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         houseListings.map((item, index) => (
                             <ExploreApartmentsCard 
@@ -124,9 +124,9 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-4" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-4">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
-                        houseListings.map((item, index) => (
+                        housingList.map((item, index) => (
                             <ExploreApartmentsCard 
                                 key={index}
                                 imgSource={item.imgSource} 
@@ -137,7 +137,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-5" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-5">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         houseListings.map((item, index) => (
                             <ExploreApartmentsCard 
@@ -150,7 +150,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-6" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-6">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         houseListings.map((item, index) => (
                             <ExploreApartmentsCard 
@@ -163,7 +163,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-7" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-7">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         houseListings.map((item, index) => (
                             <ExploreApartmentsCard 
@@ -176,7 +176,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-8" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-8">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         houseListings.map((item, index) => (
                             <ExploreApartmentsCard 
@@ -189,7 +189,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-9" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-9">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         houseListings.map((item, index) => (
                             <ExploreApartmentsCard 
@@ -202,7 +202,7 @@ export default function ExploreApartments() {
                 </div>
             </div>
             <div id="pills-on-gray-color-10" className="hidden" role="tabpanel" aria-labelledby="pills-on-gray-color-item-10">
-                <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:pt-3">  
                     {
                         houseListings.map((item, index) => (
                             <ExploreApartmentsCard 
